@@ -53,10 +53,10 @@ The scope contains:
 * ``type``: ``telegram``
 
 * ``chat``: Telegram Chat object, containing at minimum an ``id`` key with an
-            integer chat ID.
+  integer chat ID.
 
 * ``user``: Telegram User object, containing at minimum an ``id`` key with an
-            integer user ID.
+  integer user ID.
 
 Exactly one of ``chat`` or ``user`` will be present. Event types below include
 which type of scope they will occur in.
