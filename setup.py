@@ -1,6 +1,6 @@
 import os
 from setuptools import find_packages, setup
-from asgiref import __version__
+from asgigram import __version__
 
 
 # We use the README as the long_description
@@ -21,6 +21,7 @@ setup(
     include_package_data=True,
     install_requires=[
         'aiohttp',
+        'asgiref~=2.0',
     ],
     entry_points={'console_scripts': [
         'asgigram = asgigram.cli:CommandLineInterface.entrypoint',
